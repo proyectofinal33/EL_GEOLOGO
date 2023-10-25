@@ -1,0 +1,165 @@
+/*barra de menu*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+body{
+  background-size: cover;
+}
+nav{
+  max-width: 1000px;
+  background-color: #333;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-horizontal > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+.menu-horizontal > li:hover{
+  background-color: red;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+}
+.menu-vertical li:hover{
+  background-color: black;
+}
+
+.menu-vertical li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px 15px 20px;
+}
+
+#html{
+  margin: auto;
+  padding: 20px;
+  max-width: 900px;
+  background: white;
+
+}
+
+
+
+pr{
+  font-family: arial;
+  font-size: 17px;
+  color: black;
+  text-align-last: center;
+}
+
+h2{
+  color: green;
+  font-family: Monaco;
+  font-size: 20px;
+}
+
+bla {
+	color: black;
+}
+
+Az { 
+ 
+ color:#98FFF6;
+}
+
+h1{
+  font-size: 30px;
+  font-family: Monaco;
+ text-align-last: center;
+}
+
+body {
+	/*background-image:url(web.jpg.png);*/
+	background-position:center center;
+	background-attachment:fixed ;
+	background-size: cover;
+
+  display: flex;
+  justify-content:left;
+  align-items: right;
+  min-height: 1000px;
+  margin: 5px;
+}
+
+.titulo{
+  background-color:#7BFF9B;
+  color:black;
+  min-height: 100px;
+  contain:left;
+}
+
+
+form{
+  background-color:#7BFF9B ;
+  border-radius: 5px;
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width:500px;
+ 
+
+}
+
+
+.conteni{
+ 
+  width: 1000px;
+  height: 500%;
+  background-color:#F8FFFE;
+  font-size: 10px;
+  font-family: arial;
+  border-width: 10px;
+}
+
+.barra{
+  display: inline-block;
+  width: 250px;
+  height: 900px;
+  background-color:white ;
+  font-size: 20px;
+  align-items:right;
+  border-heigth: 10px;
+}
+/* texto al lado del video*/
+.container {
+ display: flex; /* Usa un contenedor flex para controlar la posición */
+ align-items: center; /* Centra verticalmente los elementos */
+}
+
+video {
+ max-width: 70%; /* Establece el ancho máximo del video */
+}
+
+.text {
+ flex: 1; /* El texto ocupará el espacio restante a la derecha del video */
+ padding: 20px;
+}
+
+footer {
+  background-color:#7BFF9B;
+  color:black;
+  min-height: 100px;
+  
+}
